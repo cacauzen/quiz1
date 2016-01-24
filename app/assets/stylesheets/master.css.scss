@@ -1,0 +1,38 @@
+body {
+	background-color: #ABBF0D;
+}
+
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Helvetica;
+	color: #ffffff;
+	text-align: left;
+}
+span{
+	text-transform: uppercase;
+	color: #F6E82C;
+	font-weight: bold;
+}
+p{
+	font-family: Helvetica;
+	font-style: italic;
+	color: #ffffff;
+	text-align: left;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
