@@ -16,11 +16,7 @@ h1 {
 	color: #ffffff;
 	text-align: left;
 }
-span{
-	text-transform: uppercase;
-	color: #F6E82C;
-	font-weight: bold;
-}
+
 p{
 	font-family: Helvetica;
 	font-style: italic;
@@ -28,11 +24,49 @@ p{
 	text-align: left;
 }
 
+.links{
+	position: fixed;
+	bottom: 20px;
+	left: 44%;
+	top: 90%;
+	display: inline-block;
+
+}
+input{
+	width: 100%;
+	border-radius: 5px;
+	height: 30px;
+	box-shadow: none;
+}
+ label{
+ 	color: #ffffff;
+ 	font-family: Helvetica;
+ 	margin-left: 10px;
+ 	font-size: 20px;
+ }
+
+.links a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Helvetica;
+}
+span a{
+	text-transform: uppercase;
+	color: #F6E82C;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #CB7034;
+}
+
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 1500px) {
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 

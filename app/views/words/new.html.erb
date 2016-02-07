@@ -1,0 +1,11 @@
+<div class="box">
+<h1>Say something cool</h1>
+
+<%= simple_form_for @word do |f| %>
+  <%= f.input :advice %>
+  <br />
+  <%= f.input :author %>
+  <br />
+  <%= f.submit 'done!'%>
+<% end %>
+</div>

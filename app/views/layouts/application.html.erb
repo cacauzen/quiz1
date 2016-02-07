@@ -8,7 +8,18 @@
 </head>
 <body>
 
+<div class="box">
+<h1><%= @word.advice%></h1>
+<p><%= @word.author%></p>
+</div>
+<div class="links">
+<span><%= link_to 'Home ', root_path %></span>
+<%= link_to ' Write', new_word_path %>
+
+</div>
+
 <%= yield %>
+
 
 </body>
 </html>
